@@ -1,0 +1,26 @@
+/* src/VideoSubmissionForm.css */
+
+.video-submission-form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .video-submission-form form {
+    width: 100%; /* You can set a max-width if you want */
+    max-width: 500px; /* Adjust the max-width as needed */
+  }
+  
+  .video-input,
+  .submit-button {
+    margin: 5px;
+  }
+  
+  .submit-button {
+    padding: 5px 15px;
+    background-color: #007bff; /* Bootstrap's btn-primary color */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

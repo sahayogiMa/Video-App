@@ -1,0 +1,16 @@
+/* src/VideoList.css */
+
+.video-list {
+    margin: 20px;
+  }
+  
+  .video-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .video-list li {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  

@@ -1,0 +1,22 @@
+/* src/VideoPlayer.css */
+
+.video-entry {
+  text-align: center; /* Center the content */
+  margin-bottom: 20px; /* Space between video entries */
+}
+
+.video-entry iframe {
+  display: block; /* Block display to fit the width */
+  margin: 0 auto; /* Center the iframe */
+  max-width: 100%; /* Ensure it doesn't overflow its container */
+}
+
+.remove-button {
+  display: block; /* Block display to allow margin auto to work */
+  margin: 10px auto; /* Center the button horizontally */
+  padding: 5px 10px;
+  background-color: #dc3545; /* Bootstrap's btn-danger color */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
